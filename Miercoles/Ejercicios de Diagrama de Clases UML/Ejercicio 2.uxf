@@ -1,0 +1,60 @@
+<diagram program="umletino" version="15.1"><zoom_level>8</zoom_level><element><id>UMLClass</id><coordinates><x>40</x><y>80</y><w>208</w><h>168</h></coordinates><panel_attributes>Jugador
+--
++id: Long
++nombre: String
+-partidasGanadas: Integer
+-partidasPerdidas: Integer
+-cantidadCastigos: Integer
+--
+-invitar(jugador): void
+--
+Responsibilities
+-- Manejar un bote por el canal Tenglo</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>88</y><w>168</w><h>152</h></coordinates><panel_attributes>Partida
+--
++id: Long
+-jugadores: Jugador[]
+-ganador: Jugador
+-partidaEmpezada: Boolean
+--
+-empezarPartida(): void
+-setGanador(Jugador): void
+--
+Responsibilities
+-- Declarar un ganador</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>24</x><y>456</y><w>224</w><h>152</h></coordinates><panel_attributes>SalaEspera
+--
++id: Long
+-jugadores: Jugador[]
+--
+-partidaNueva(jugador1, jugador2): Partida
+--
+Responsibilities
+-- Proveer una fila si no hay mesas disponibles</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>336</x><y>464</y><w>264</w><h>152</h></coordinates><panel_attributes>Sistema
+--
++id: Long
+--
+-partidaNueva(jugador1, jugador2): Partida | SalaEspera
+-sumarPartidasGanadas(Jugador): void
+-sumarPartidasPerdidas(Jugador): void
+-sumarCantidadCastigos(Jugador): void
+--
+Responsibilities
+-- Terminar una partida si un jugador deja la partida
+-- Modificar estadísticas de los jugadores</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>112</y><w>216</w><h>40</h></coordinates><panel_attributes>lt=-
+m1=2
+m2=n
+Juega &gt;</panel_attributes><additional_attributes>10;20;250;20</additional_attributes></element><element><id>Relation</id><coordinates><x>144</x><y>240</y><w>80</w><h>232</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=1
+Espera en v</panel_attributes><additional_attributes>10;10;10;270</additional_attributes></element><element><id>Relation</id><coordinates><x>504</x><y>232</y><w>88</w><h>248</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=0..n
+Administra ^</panel_attributes><additional_attributes>10;290;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>544</y><w>112</w><h>40</h></coordinates><panel_attributes>lt=-
+m1=n
+m2=1
+&lt; Administra </panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>176</x><y>160</y><w>280</w><h>312</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=2
+Envía ^</panel_attributes><additional_attributes>10;370;10;340;110;340;110;10;330;10</additional_attributes></element><element><id>Relation</id><coordinates><x>224</x><y>240</y><w>264</w><h>240</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1..n
+&lt; Administra</panel_attributes><additional_attributes>300;280;300;200;10;200;10;10</additional_attributes></element></diagram>
