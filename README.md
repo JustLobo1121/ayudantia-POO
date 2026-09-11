@@ -17,6 +17,23 @@
     </li>
   </ul>
 </details>
+<details>
+  <summary>Jueves</summary>
+  <ul>
+    <li>
+      Ejemplo de como hacer el laboratorio
+      <ul>
+        <li>
+          <a href="Jueves/lab1/POO (40).pdf">Enunciado</a>
+        </li>
+        <li>
+          <a href="Jueves/lab1/habitacion.java">Ejemplo de clase habitacion</a>
+          <a href="Jueves/lab1/pasajero.java">Ejemplo de clase pasajero</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</details>
 
 ## Cómo...
 - Ver los diagramas UML/UXF: Usar [UMLetino](https://www.umletino.com/umletino.html) y cargar el archivo con el botón `File Import`.
