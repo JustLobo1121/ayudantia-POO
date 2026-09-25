@@ -27,7 +27,9 @@
           <a href="Jueves/lab1/POO (40).pdf">Enunciado</a>
         </li>
         <li>
-          <a href="Jueves/lab1/habitacion.java">Ejemplo de clase habitacion</a>
+           <a href="Jueves/lab1/habitacion.java">Ejemplo de clase habitacion</a>
+        </li>
+        <li>
           <a href="Jueves/lab1/pasajero.java">Ejemplo de clase pasajero</a>
         </li>
       </ul>
