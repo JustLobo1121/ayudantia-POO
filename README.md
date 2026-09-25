@@ -32,6 +32,14 @@
         </li>
       </ul>
     </li>
+    <li>
+      laboratorio
+      <ul>
+        <li>
+          <a href="Jueves/lab_verdadero/POO-7.pdf">Enunciado</a>
+        </li>
+      </ul>
+    </li>
   </ul>
 </details>
 
