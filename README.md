@@ -15,6 +15,17 @@
         </li>
       </ul>
     </li>
+    <li>
+      Laboratorio 1
+      <ul>
+        <li>
+          <a href="Miercoles/Laboratorio 1/POO-7.pdf">Enunciado</a>
+        </li>
+        <li>
+          <a href="Miercoles/Laboratorio 1/Python.py">Resolución en Python</a>
+        </li>
+      </ul>
+    </li>
   </ul>
 </details>
 <details>
@@ -47,3 +58,4 @@
 
 ## Cómo...
 - Ver los diagramas UML/UXF: Usar [UMLetino](https://www.umletino.com/umletino.html) y cargar el archivo con el botón `File Import`.
+- Seguir enlaces simbólicos (ejemplo: no aparece un PDF, aparece una línea que termina en .pdf): Hacer click en `Symbolic link`.
