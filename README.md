@@ -59,3 +59,6 @@
 ## Cómo...
 - Ver los diagramas UML/UXF: Usar [UMLetino](https://www.umletino.com/umletino.html) y cargar el archivo con el botón `File Import`.
 - Seguir enlaces simbólicos (ejemplo: no aparece un PDF, aparece una línea que termina en .pdf): Hacer click en `Symbolic link`.
+
+## Extra
+- <a href="Ejercicios adicionales">Ejercicios/guías/etc.</a>
