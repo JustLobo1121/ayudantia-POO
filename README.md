@@ -53,6 +53,20 @@
         </li>
       </ul>
     </li>
+    <li>
+      ejercicios adicionales
+      <ul>
+        <li>
+          <a href="Ejercicios adicionales/POO-6.pdf">Enunciado</a>
+        </li>
+        <li>
+           <a href="Jueves/ejercicios_adicionales/ejer_2/">Ejercicio 2(con python y java)</a>
+        </li>
+        <li>
+          <a href="Jueves/ejercicios_adicionales/ejer_3/">Ejercicio 3(con python y java)</a>
+        </li>
+      </ul>
+    </li>
   </ul>
 </details>
 
