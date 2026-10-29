@@ -9,6 +9,9 @@ class Tienda:
         self.productos.append(producto)
 
     def mostrar_productos(self):
+        if len(self.productos) == 0:
+            print("No hay ningún producto registrado")
+            return
         for producto in self.productos:
             print(f"Nombre: {producto.nombre}")
             print(f"Descripción: {producto.descripcion}")

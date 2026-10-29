@@ -12,6 +12,9 @@ class Carrito:
         self.lista.remove(producto)
 
     def mostrar(self):
+        if len(self.lista) == 0:
+            print("No hay nada en el carrito")
+            return
         total = 0
         for producto in self.lista:
             print(f"Nombre: {producto.nombre}")
